@@ -1,7 +1,9 @@
-def square_array(array)
-array = [1,2,3,4,5]
- 
-while array[array] do
-  puts square_array(array)
-end
+def square_array(numbers)
+  counter = 0
+  sqr_numbers=[]
+  while numbers[counter] do
+    sqr_numbers<<numbers[counter]*numbers[counter]
+    counter += 1
+  end
+  sqr_numbers
 end
