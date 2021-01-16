@@ -1,4 +1,8 @@
 def square_array(array)
-  number = (4,5,6)
-  square_array(number)
+array = [1,2,3,4,5]
+ 
+while array[array] do
+  puts array[array]
+  counter += 1
+end
 end
