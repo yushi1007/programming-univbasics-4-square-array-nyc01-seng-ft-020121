@@ -1,3 +1,4 @@
 def square_array(array)
-  # your code here
+  number = (4,5,6)
+  square_array(number)
 end
